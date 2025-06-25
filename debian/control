@@ -3,8 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), autoconf-archive, pkgconf,
- python3-distutils
+Build-Depends: debhelper-compat (= 13), autoconf-archive, pkgconf
 Build-Depends-Indep: doxygen (>= 1.7.1)
 Build-Conflicts: clang
 Homepage: https://icu.unicode.org/
