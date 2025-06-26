@@ -20,7 +20,7 @@ Change into the icu source tree and start building the icu deb files :-
 ```
 cd icu
 
-DEB_BUILD_MAINT_OPTIONS=abi=+time64 JOBS=4 dpkg-buildpackage -b -uc -nc
+DEB_BUILD_MAINT_OPTIONS=abi=+time64 dpkg-buildpackage -b -uc
 ```
 
 End users, eg those who have downloaded my ungoogled chromium debs, need to install :-
